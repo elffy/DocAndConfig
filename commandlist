@@ -1,0 +1,102 @@
+
+Android 编译相关：
+--------
+以下编译配置一般在device下面的mk文件中，比如qcom/msm8974sfo.mk
+PRODUCT_LOCALES := zh_CN zh_TW en_US ja_JP ko_KR ru_RU
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
+
+****************************keytool*******************************
+keytool -list -v -keystore xxxxx.keystore
+
+
+**********************get change-id:*************************
+cd <code_root>
+scp -p -P 29418 172.16.0.9:hooks/commit-msg .git/hooks 
+
+**************************反编译及打包解包**********************************
+
+反编译：
+反编译xml：java -jar AXMLPrinter2.jar Calendar.apk_FILES/AndroidManifest.xml >AndroidManifest.txt
+
+2.x版本需要至少java1.7，需要apktool执行文件与apktool.jar
+apktool可以解包，把apk解包成smali文件和资源文件，AndroidManifest也能解出来。
+命令：apktool d xxx.apk
+
+dex2jar工具
+
+smali工具
+
+
+**************************************************************
+No.2   解压 system.img
+把得到的make_ext4fs simg2img 和mkuserimg.sh放在你的工作目录下，把固件包里解压出来的sysmtem.img拷贝到工作目录。
+[生成ext4格式的文件]
+./simg2img system.img system.img.ext4         (输入./simg2img的意思是，执行当前目录下的这个文件)
+mkdir tmp
+[在tmp中对system系统镜像做修改]
+mount -t ext4 -o loop system.img.ext4 tmp/ 
+
+
+
+*************************执行monkey :************************
+monkey -s 3133508013 -p com.android.camera2 --monitor-native-crashes --ignore-security-exceptions --kill-process-after-error --pct-trackball 0 --pct-nav 0 --pct-anyevent 10 --pct-appswitch 2 -v -v --throttle 500 60000
+
+
+************************打印调用堆栈：*************************
+        java.util.Map<Thread, StackTraceElement[]> ts = Thread.getAllStackTraces();
+        StackTraceElement[] stea = Thread.currentThread().getStackTrace();
+        android.util.Log.e("zjltest", "print stack trace");
+        for (int i = 3; i < 10; i++) {
+            StackTraceElement ste = stea[i];
+            android.util.Log.i("zjltest", ste.toString());
+        }
+
+***********************tcpdump**************************************
+tcpdump -p -vv -s 0 -w /sdcard/aaaaaaaTests/tcpdump.pcap
+
+curl  -IL -H"host:baidu.com" "http://220.181.57.217"
+
+***********************Ubuntu 下不能识别android设备的解决方法 *******************************
+
+在eclipse下调试时发现找到的设备为'Unknow'，很明确，系统不识别该设备，在官网有解决方法：http://developer.android.com/guide/developing/device.html#setting-up,全是E文，这里我就写写做个备案： 
+系统环境：ubuntu11.10 
+
+开始工作 
+
+1）在如下位置建立如下文件：“/etc/udev/rules.d/51-android.rules” 
+
+2）确保android设备已经与电脑连接，在Terminal输入lsusb，会出现设备的信息如 
+
+”Bus 001 Device 004: ID 18d1:0002 Google Inc. “ 
+
+找到该信息并找到”ID“字段信息加入第3步中。 
+
+3）在”51-android.rules“文件中添加如下信息 
+
+SUBSYSTEM==”usb”, SYSFS{“idVendor”}==”2207″, MODE=”0666″
+
+SUBSYSTEM=="usb", ATTR{idVendor}=="2207", ATTR{idProduct}=="0010", MODE="0666"
+
+4) 运行以下命令： 
+
+sudo chmod a+rx /etc/udev/rules.d/51-android.rules 
+sudo /etc/init.d/udev restart 
+
+如果使用sudo /etc/init.d/udev restart出现错误提示如下： 
+Rather than invoking init scripts through /etc/init.d, use the service(8) 
+utility, e.g. service udev restart 
+Since the script you are attempting to invoke has been converted to an 
+Upstart job, you may also use the restart(8) utility, e.g. restart udev 
+udev start/running, process 2127 
+
+应该执行： sudo service udev restart 
+
+还不行执行5
+5）gedit ~/.android/adb_usb.ini
+在里面加入0x0002（不行换行再加入0x18d1）
+重启adb
+

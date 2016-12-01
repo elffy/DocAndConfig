@@ -1,0 +1,38 @@
+[url "ssh://172.16.0.9/smartisanos/googlesource/"]
+     insteadOf = "https://gerrit.googlesource.com/"
+
+[url "ssh://172.16.0.9/smartisanos/googlesource/"]
+     insteadOf = "https://android.googlesource.com/"
+
+[core]
+        editor = vim
+
+[color]
+        ui = auto
+
+[user]
+        name = elffy
+        email = zjlelf@gmail.com
+
+[alias]
+        co=checkout
+        cio=commit
+        ci=commit -a -s
+        br=branch
+        st=status
+        cp=cherry-pick
+        cr=cherry
+        rb=rebase
+        fp=format-patch
+        hist=log --pretty=format:\"%Cred%h %Cblue%ad %Cred| %Creset%s%d %Cgreen[%an]\" --graph --date=short
+        flog=log --pretty=fuller --graph
+
+[DIFF]
+        tool = diffuse
+
+[am]
+        keepcr = true
+
+[log]
+        date = local
+

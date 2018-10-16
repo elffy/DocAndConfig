@@ -1,0 +1,29 @@
+
+====== remove task ======
+ActivityManager.removeTask(int taskId); taskId = Activity.getTaskId();
+
+======打印某个进程各线程的调用栈信息=====
+kill -3 （在android的/data/anr/下执行，确保存在trace.txt）
+
+
+======无障碍相关：======
+1，Activity或这dialog都有title，设置了title就会在组建启动的时候朗读title，实质上都是window的title
+WindowManager.LayoutParams有一个成员变量：accessibilityTitle。activity可以配置label字段。
+2, 自定义view写helper类。
+
+
+======禁止应用数据被清掉：======
+android:allowClearUserData="false"
+
+======获取系统 view 的宽高 ======
+mStatusBarHeight = context.getResources().getDimensionPixelSize(
+        com.android.internal.R.dimen.desktop_status_bar_height);
+mNavigationBarHeight = context.getResources().getDimensionPixelSize(
+        com.android.internal.R.dimen.desktop_navigation_bar_height);
+
+DisplayInfo displayInfo = new DisplayInfo();
+SmtPCUtils.getExtDisplay(context).getDisplayInfo(displayInfo);
+
+mDisplayWidth = displayInfo.largestNominalAppWidth;
+mDisplayHeight = displayInfo.smallestNominalAppWidth;
+

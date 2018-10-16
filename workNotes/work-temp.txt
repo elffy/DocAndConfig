@@ -1,0 +1,140 @@
+
+02-22 20:37:17.070: D/zjltest(4816): 啊:45217-b0a1-1601
+02-22 20:37:17.070: D/zjltest(4816): 芭:45253-b0c5-1637
+02-22 20:37:17.070: D/zjltest(4816): 擦:45761-b2c1-1833
+02-22 20:37:17.070: D/zjltest(4816): 搭:46318-b4ee-2078
+02-22 20:37:17.070: D/zjltest(4816): 蛾:46826-b6ea-2274
+02-22 20:37:17.070: D/zjltest(4816): 发:47010-b7a2-2302
+02-22 20:37:17.070: D/zjltest(4816): 噶:47297-b8c1-2433
+02-22 20:37:17.070: D/zjltest(4816): 哈:47614-b9fe-2594
+02-22 20:37:17.080: D/zjltest(4816): 击:48119-bbf7-2787
+02-22 20:37:17.080: D/zjltest(4816): 喀:49062-bfa6-3106
+02-22 20:37:17.080: D/zjltest(4816): 垃:49324-c0ac-3212
+02-22 20:37:17.080: D/zjltest(4816): 妈:49896-c2e8-3472
+02-22 20:37:17.080: D/zjltest(4816): 拿:50371-c4c3-3635
+02-22 20:37:17.080: D/zjltest(4816): 哦:50614-c5b6-3722
+02-22 20:37:17.080: D/zjltest(4816): 啪:50622-c5be-3730
+02-22 20:37:17.080: D/zjltest(4816): 期:50906-c6da-3858
+02-22 20:37:17.080: D/zjltest(4816): 然:51387-c8bb-4027
+02-22 20:37:17.080: D/zjltest(4816): 撒:51446-c8f6-4086
+02-22 20:37:17.080: D/zjltest(4816): 塌:52218-cbfa-4390
+02-22 20:37:17.080: D/zjltest(4816): 挖:52698-cdda-4558
+02-22 20:37:17.080: D/zjltest(4816): 昔:52980-cef4-4684
+02-22 20:37:17.080: D/zjltest(4816): 压:53689-d1b9-4925
+02-22 20:37:17.080: D/zjltest(4816): 匝:54481-d4d1-5249
+
+
+02-23 17:08:52.170: D/zjltest(27582): takes time:0,滕王阁序.txt-#
+
+02-16 11:10:31.693: D/zjltest(27229): EMULATED_STORAGE_SOURCE:/mnt/shell/emulated,EMULATED_STORAGE_TARGET:/storage/emulated,EXTERNAL_STORAGE:/storage/emulated/legacy,path:/storage/emulated/0/aaaaaaa/看看咯默默
+02-16 11:10:31.743: D/FM_MainActivity(27229): onChange:content://media/external
+02-16 11:10:31.793: D/FM_FileUtil(27229): onScanCompleted path:/storage/emulated/0/aaaaaaa/看看咯默默,uri:content://media/external/file/5528
+02-16 11:10:31.823: D/FM_MainActivity(27229): onChange:content://media/
+02-16 11:10:31.823: D/FM_MainActivity(27229): onChange:content://media/external/file
+
+
+
+2-25 20:07:17.980: D/FM_FolderUtil(8756): getIconForFolder:UCDownloads,android.content.pm.PackageManager$NameNotFoundException: com.UCMobile
+12-25 20:07:17.980: D/FM_FolderUtil(8756): url:http://icon.smartisan.com/drawable/com.UCMobile/icon_provided_by_smartisan.png
+12-25 20:07:18.250: D/FM_FolderUtil(8756): getIconForFolder:Youdao,android.content.pm.PackageManager$NameNotFoundException: com.youdao.dict
+12-25 20:07:18.250: D/FM_FolderUtil(8756): url:http://icon.smartisan.com/drawable/com.youdao.dict/icon_provided_by_smartisan.png
+12-25 20:07:18.310: D/FM_FolderUtil(8756): getIconForFolder:youku,android.content.pm.PackageManager$NameNotFoundException: com.youku.phone
+12-25 20:07:18.310: D/FM_FolderUtil(8756): url:http://icon.smartisan.com/drawable/com.youku.phone/icon_provided_by_smartisan.png
+
+
+12-13 16:04:59.809: E/zjltest(5961): 12.11 补 求助大神这是什么歌（第三季），哈哈哈我靠我靠我靠我靠我靠。。。[笑cry][笑cry][笑cry],http://ww3.sinaimg.cn/large/7a8aed7bgw1eyvkh5wnbsj20qo0hsn0e.jpg
+12-13 16:04:59.809: E/zjltest(5961): 12-10 【心理学视频：压抑的来源】 社会人格与反社会人格 ，感觉最近自己过得不快乐？容易生病？总是被人讨厌？看看这个。看完知道你是什麼樣的人。值得一看。,http://ww1.sinaimg.cn/large/610dc034gw1eyu8kqv2p6j20m80rsjuy.jpg
+12-13 16:04:59.809: E/zjltest(5961): 12-9 如果以前有人问我特效烂，我能不能将就，我一定会说不能，但看了这位小哥的表演以后我会说，能，我绝对能！,http://ww2.sinaimg.cn/large/610dc034gw1eyt23vp9mdj20ex0miq65.jpg
+12-13 16:04:59.869: E/zjltest(5961): meizhi.url:http://ww2.sinaimg.cn/large/610dc034gw1eyrfnh1fcuj20ey0mi3zz.jpg
+12-13 16:04:59.869: E/zjltest(5961): meizhi.url:http://ww2.sinaimg.cn/large/610dc034gw1eyrfi5kot7j20f00f0q5o.jpg
+12-13 16:04:59.879: E/zjltest(5961): meizhi.url:http://ww4.sinaimg.cn/large/7a8aed7bjw1eynh92kg6jj20dc0gqwho.jpg
+
+
+12-13 16:12:51.959: D/zjltest(10722): 4,Childrens Community Centre,http://www.abroadeasy.com/assets/uploads/program/4/Community_daily_center_project_0/.jpg
+12-13 16:12:51.959: D/zjltest(10722): 5,Childrens Foster Home,http://www.abroadeasy.com/assets/uploads/program/5/180640_10150191322753222_928574_n_0/.jpg
+12-13 16:12:51.959: D/zjltest(10722): 6,Working with Children and Community Development,http://www.abroadeasy.com/assets/uploads/program/6/IMG_1637/.JPG
+12-13 16:12:51.959: D/zjltest(10722): 7,Social Work Program,http://www.abroadeasy.com/assets/uploads/program/7/Tmp00015/.jpg
+
+
+     * @param oldState the old state as returned by {@link android.os.Environment#getExternalStorageState()}.
+     * @param newState the old state as returned by {@link android.os.Environment#getExternalStorageState()}.
+
+
+11-18 11:11:45.741: D/zjltest(14116): StorageVolume:StorageVolume:
+11-18 11:11:45.741: D/zjltest(14116):     mStorageId=65537 mPath=/storage/emulated/0 mDescriptionId=17040759 
+11-18 11:11:45.741: D/zjltest(14116):     mPrimary=true mRemovable=false mEmulated=true mMtpReserveSpace=0 
+11-18 11:11:45.741: D/zjltest(14116):     mAllowMassStorage=false mMaxFileSize=0 mOwner=UserHandle{0} mUuid=null 
+11-18 11:11:45.741: D/zjltest(14116):     mUserLabel=null mState=mounted 
+
+
+09-30 15:09:55.189: D/Cal(20409): +-----------------------------------------+
+09-30 15:09:55.189: D/Cal(20409): +        id = 8525
+09-30 15:09:55.189: D/Cal(20409): +     color = -16777012
+09-30 15:09:55.189: D/Cal(20409): +     title = 跨三天
+09-30 15:09:55.189: D/Cal(20409): +  location = null
+09-30 15:09:55.189: D/Cal(20409): +    allDay = true
+09-30 15:09:55.189: D/Cal(20409): +  timezone = Asia/Shanghai
+09-30 15:09:55.199: D/Cal(20409): +startMillis = 20150930T140000
+09-30 15:09:55.199: D/Cal(20409): +  endMillis = 1443596400000
+09-30 15:09:55.199: D/Cal(20409): +  startDay = 2457296
+09-30 15:09:55.199: D/Cal(20409): +    endDay = 2457296
+09-30 15:09:55.199: D/Cal(20409): + startTime = 840
+09-30 15:09:55.199: D/Cal(20409): +   endTime = 900
+09-30 15:09:55.199: D/Cal(20409): + organizer = 1033816
+09-30 15:09:55.199: D/Cal(20409): +  guestwrt = false
+09-30 15:09:55.199: D/Cal(20409): +calendarid = 90
+09-30 15:09:55.199: D/Cal(20409): +instanceid = 8379
+09-30 15:09:55.199: D/CAL_EventDragLayer(20409): getSelectedJulianDay:2457297
+09-30 15:09:55.199: D/CAL_EventDragLayer(20409): rect:[176.82611,596.0][981.8261,788.0]
+09-30 15:10:17.939: D/Cal(20409): +-----------------------------------------+
+09-30 15:10:17.939: D/Cal(20409): +        id = 8525
+09-30 15:10:17.939: D/Cal(20409): +     color = -16777012
+09-30 15:10:17.939: D/Cal(20409): +     title = 跨三天
+09-30 15:10:17.939: D/Cal(20409): +  location = null
+09-30 15:10:17.939: D/Cal(20409): +    allDay = true
+09-30 15:10:17.939: D/Cal(20409): +  timezone = Asia/Shanghai
+09-30 15:10:17.939: D/Cal(20409): +startMillis = 20150929T231500
+09-30 15:10:17.939: D/Cal(20409): +  endMillis = 1443543300000
+09-30 15:10:17.939: D/Cal(20409): +  startDay = 2457295
+09-30 15:10:17.939: D/Cal(20409): +    endDay = 2457296
+09-30 15:10:17.939: D/Cal(20409): + startTime = 1395
+09-30 15:10:17.939: D/Cal(20409): +   endTime = 15
+09-30 15:10:17.939: D/Cal(20409): + organizer = 1033816
+09-30 15:10:17.939: D/Cal(20409): +  guestwrt = false
+09-30 15:10:17.939: D/Cal(20409): +calendarid = 90
+09-30 15:10:17.939: D/Cal(20409): +instanceid = 8379
+
+
+
+
+
+09-25 10:37:09.261: E/EventInfoFragment(19011): rrule:FREQ=DAILY;INTERVAL=1;UNTIL=20150926T160000Z, String:每天，直到2015年9月27日
+09-25 10:39:21.071: E/EventInfoFragment(19011): rrule:FREQ=DAILY;INTERVAL=1;UNTIL=20150926T063000Z, String:每天，直到2015年9月26日
+09-25 10:40:14.421: E/EventInfoFragment(19011): rrule:FREQ=DAILY;INTERVAL=1;UNTIL=20150930T160000Z, String:每天，直到2015年10月1日
+09-25 10:42:40.331: E/EventInfoFragment(19011): rrule:FREQ=DAILY;UNTIL=20150928T000000Z;WKST=MO, String:每天，直到2015年9月28日
+09-25 10:42:52.001: E/EventInfoFragment(19011): rrule:FREQ=DAILY;UNTIL=20150928T030000Z;WKST=MO, String:每天，直到2015年9月28日
+09-25 10:45:33.381: E/EventInfoFragment(19011): rrule:FREQ=DAILY;UNTIL=20150927T220000Z;WKST=MO, String:每天，直到2015年9月28日
+09-25 10:47:00.621: E/EventInfoFragment(19011): rrule:FREQ=DAILY;UNTIL=20150928T120000Z;WKST=MO, String:每天，直到2015年9月28日
+
+
+01-01 09:39:04.466: E/CAL_CalendarAccountAdapter(32393): CalendarInfo:My calendar| LOCAL| My calendar| My calendar
+01-01 09:39:04.466: E/CAL_CalendarAccountAdapter(32393): CalendarInfo:SmartisanLocalAccount| LOCAL| SmartisanLocal| LocalDisplayName
+01-01 09:39:04.466: E/CAL_CalendarAccountAdapter(32393): CalendarInfo:local| LOCAL| legalHoliday| 中国节日
+01-01 09:39:04.466: E/CAL_CalendarAccountAdapter(32393): CalendarInfo:local| LOCAL| 24SolarTerms| 二十四节气
+01-01 09:39:04.476: E/CAL_CalendarAccountAdapter(32393): CalendarInfo:zengjinlong@smartisan.com| com.android.exchange| null| zengjinlong@smartisan.com
+
+
+
+
+09-24 18:57:21.691: E/zjltest(21800): info:My calendar| LOCAL| My calendar| My calendar
+09-24 18:57:21.691: E/zjltest(21800): info:SmartisanLocalAccount| LOCAL| xukexin_sabo@163.com| xukexin_sabo@163.com
+09-24 18:57:21.691: E/zjltest(21800): info:xukexin_ext@smartisan.com| com.samsung.android.exchange| null| xukexin_ext@smartisan.com
+
+09-24 18:57:21.701: E/zjltest(21800): info:My calendar| LOCAL| My calendar| My calendar
+09-24 18:57:21.701: E/zjltest(21800): info:SmartisanLocalAccount| LOCAL| xukexin_sabo@163.com| xukexin_sabo@163.com
+09-24 18:57:21.701: E/zjltest(21800): info:xukexin_ext@smartisan.com| com.samsung.android.exchange| null| xukexin_ext@smartisan.com
+
+
+SM-N9006
+SM-G9250
+

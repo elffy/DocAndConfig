@@ -1,0 +1,8 @@
+
+find5:
+getDisplayMetrics:DisplayMetrics{density=3.0, width=1080, height=1920, scaledDensity=3.0, xdpi=442.451, ydpi=443.345} densityDpi:480
+
+I9300:
+DisplayMetrics{density=2.0, width=720, height=1280, scaledDensity=2.0, xdpi=304.8, ydpi=306.71698}
+
+

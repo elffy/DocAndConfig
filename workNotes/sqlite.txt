@@ -1,0 +1,6 @@
+select min(begin) as minTime, count(*) as count  FROM Instances INNER JOIN  Events ON (Instances.event_id=Events._id) where startDay<=2456959 AND endDay>=2456818
+
+SELECT Min(begin) AS minTime, Count(*) AS count FROM Instances INNER JOIN view_events AS Events ON (Instances.event_id=Events._id) WHERE (startDay<=2456959 AND endDay>=2456818) AND ((title LIKE '#Achieved#%' OR title LIKE '【已完成】%' OR title LIKE '#已完成#%') AND (visible=1 AND deleted !=1)) GROUP BY ((begin/432000000 )) ORDER BY minTime
+
+SELECT  startDay, count(*) FROM instances  GROUP BY startDay/5 having count(*) > 10
+从instance表中查询以startDay为依据每5天分组且事件超过10条的数据，显示他们的startDay和分组总数

@@ -1,0 +1,107 @@
+SELECT * FROM files WHERE (_size!=0 AND ((mime_type == 'application/pdf') OR (mime_type == 'application/msword') OR (mime_type == 'application/vnd.ms-excel') OR (mime_type == 'application/vnd.ms-powerpoint') OR (mime_type == 'application/mspowerpoint') OR (format==12288 AND ((_data LIKE '%.docx') OR (_data LIKE '%.xlsx') OR (_data LIKE '%.pptx') OR (_data LIKE '%.pages') OR (_data LIKE '%.key') OR (_data LIKE '%.numbers')))))
+
+SELECT * FROM files WHERE (_size!=0 AND ((mime_type == 'application/pdf') OR (mime_type == 'application/msword') OR (mime_type == 'application/vnd.ms-excel') OR (mime_type == 'application/vnd.ms-powerpoint') OR (mime_type == 'application/mspowerpoint') OR ((_data LIKE '%.docx') OR (_data LIKE '%.xlsx') OR (_data LIKE '%.pptx') OR (_data LIKE '%.pages') OR (_data LIKE '%.key') OR (_data LIKE '%.numbers'))))
+
+
+select * from files where _size!=0 AND (((mime_type == 'application/pdf') OR (mime_type == 'application/msword') OR (mime_type == 'application/vnd.ms-excel') OR (mime_type == 'application/vnd.ms-powerpoint') OR (mime_type == 'application/mspowerpoint')) OR (format==12288 AND ((_data LIKE '%.docx') OR (_data LIKE '%.xlsx') OR (_data LIKE '%.pptx') OR (_data LIKE '%.pages') OR (_data LIKE '%.key') OR (_data LIKE '%.numbers'))));
+
+select * from files where _size!=0 AND ((mime_type == 'application/pdf') OR (mime_type == 'application/msword') OR (mime_type == 'application/vnd.ms-excel') OR (mime_type == 'application/vnd.ms-powerpoint') OR (mime_type == 'application/mspowerpoint') OR (mime_type == 'application/x-iwork-pages-sffpages') OR (mime_type == 'application/x-iwork-keynote-sffkey') OR (mime_type == 'application/x-iwork-numbers-sffnumbers'));
+
+select * from files where _size!=0 AND ((mime_type == 'application/pdf') OR (mime_type == 'application/msword') OR (mime_type == 'application/vnd.ms-excel') OR (mime_type == 'application/vnd.ms-powerpoint') OR (mime_type == 'application/mspowerpoint') OR mime_type like 'application/x-iwork%');
+
+select * from files where _size!=0 AND ((_data LIKE '%.docx') OR (_data LIKE '%.xlsx') OR (_data LIKE '%.pptx') OR (_data LIKE '%.pages') OR (_data LIKE '%.key') OR (_data LIKE '%.numbers'));
+
+select * from files where _size!=0 AND mime_type like 'application/x-iwork%';
+
+select * from files where _size!=0 AND ((mime_type == 'application/x-iwork-pages-sffpages') OR (mime_type == 'application/x-iwork-keynote-sffkey') OR (mime_type == 'application/x-iwork-numbers-sffnumbers'));
+
+application/x-iwork-pages-sffpages
+application/x-iwork-keynote-sffkey
+application/x-iwork-numbers-sffnumbers
+
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+application/vnd.openxmlformats-officedocument.presentationml.presentation
+application/vnd.openxmlformats-officedocument.wordprocessingml.document
+
+
+81366:12-15 14:33:28.437 D/zjltest (31496): VolumeInfo:VolumeInfo{public:179,65}:
+81367:12-15 14:33:28.437 D/zjltest (31496):     type=PUBLIC diskId=disk:179,64 partGuid=null mountFlags=VISIBLE 
+81368:12-15 14:33:28.437 D/zjltest (31496):     mountUserId=0 state=MOUNTED 
+81369:12-15 14:33:28.437 D/zjltest (31496):     fsType=vfat fsUuid=CBF9-1209 fsLabel= 
+81370:12-15 14:33:28.437 D/zjltest (31496):     path=/storage/CBF9-1209 internalPath=/mnt/media_rw/CBF9-1209 
+81371:12-15 14:33:28.437 D/zjltest (31496): disk:DiskInfo{disk:179,64}:
+81372:12-15 14:33:28.437 D/zjltest (31496):     flags=ADOPTABLE|DEFAULT_PRIMARY|SD size=7813988352 label=Transcend 
+81373:12-15 14:33:28.437 D/zjltest (31496):     sysPath=/sys//devices/soc/7864900.sdhci/mmc_host/mmc1/mmc1:0001/block/mmcblk
+81374:12-15 14:33:28.437 D/zjltest (31496):     1 
+81375:12-15 14:33:28.438 D/zjltest (31496): VolumeInfo:VolumeInfo{public:179,66}:
+81376:12-15 14:33:28.438 D/zjltest (31496):     type=PUBLIC diskId=disk:179,64 partGuid=null mountFlags=VISIBLE 
+81377:12-15 14:33:28.438 D/zjltest (31496):     mountUserId=0 state=MOUNTED 
+81378:12-15 14:33:28.438 D/zjltest (31496):     fsType=vfat fsUuid=0D2F-0775 fsLabel= 
+81379:12-15 14:33:28.438 D/zjltest (31496):     path=/storage/0D2F-0775 internalPath=/mnt/media_rw/0D2F-0775 
+81380:12-15 14:33:28.438 D/zjltest (31496): disk:DiskInfo{disk:179,64}:
+81381:12-15 14:33:28.438 D/zjltest (31496):     flags=ADOPTABLE|DEFAULT_PRIMARY|SD size=7813988352 label=Transcend 
+81382:12-15 14:33:28.438 D/zjltest (31496):     sysPath=/sys//devices/soc/7864900.sdhci/mmc_host/mmc1/mmc1:0001/block/mmcblk
+81383:12-15 14:33:28.438 D/zjltest (31496):     1 
+81384:12-15 14:33:28.438 D/zjltest (31496): VolumeInfo:VolumeInfo{public:8,1}:
+81385:12-15 14:33:28.438 D/zjltest (31496):     type=PUBLIC diskId=disk:8,0 partGuid=null mountFlags=0 mountUserId=0 
+81386:12-15 14:33:28.438 D/zjltest (31496):     state=MOUNTED 
+81387:12-15 14:33:28.438 D/zjltest (31496):     fsType=exfat fsUuid=D647-C645 fsLabel= 
+81388:12-15 14:33:28.438 D/zjltest (31496):     path=/mnt/media_rw/D647-C645 internalPath=/mnt/media_rw/D647-C645 
+81389:12-15 14:33:28.438 D/zjltest (31496): disk:DiskInfo{disk:8,0}:
+81390:12-15 14:33:28.438 D/zjltest (31496):     flags=USB size=15502147584 label=Kingston 
+81391:12-15 14:33:28.438 D/zjltest (31496):     sysPath=/sys//devices/soc/7000000.ssusb/7000000.dwc3/xhci-hcd.0.auto/usb1/1-
+81392:12-15 14:33:28.438 D/zjltest (31496):     1/1-1:1.0/host4/target4:0:0/4:0:0:0/block/sda
+
+
+××××××××××××××××××××××××××××××××授权××××××××××××××××××××××××××××
+11850:11-29 15:50:28.257 I/ActivityManager( 1450): START u0 {act=android.intent.action.OPEN_DOCUMENT_TREE cmp=com.android.documentsui/.DocumentsActivity (has extras)} from uid 10118 on display 0
+
+
+1811:11-30 15:59:31.492 I/ActivityManager( 1522): START u0 {act=android.provider.action.BROWSE cat=[android.intent.category.DEFAULT] dat=content://com.android.externalstorage.documents/root/6A10-D51A cmp=com.android.documentsui/.FilesActivity bnds=[38,-1741][1044,-1550] (has extras)} from uid 10032 on display 0
+
+******************************Internal:
+252:12-07 14:43:16.106 I/ActivityManager( 1538): START u0 {act=android.intent.action.VIEW dat=content://com.android.providers.downloads.documents/document/98 flg=0x3000001 cmp=com.android.gallery3d/.app.Gallery} from uid 1000 on display 0
+
+******************************USB:
+2556:12-07 14:44:08.489 I/ActivityManager( 1538): START u0 {act=android.intent.action.VIEW dat=content://com.android.externalstorage.documents/document/7CE4-099A:Pictures/bb4849a79268.jpg flg=0x3000001 cmp=com.android.gallery3d/.app.Gallery} from uid 1000 on display 0
+
+******************************SD card:
+4213:12-07 14:44:49.231 I/ActivityManager( 1538): START u0 {act=android.intent.action.VIEW dat=content://com.android.externalstorage.documents/document/6A10-D51A:新文件夹/Pictures/Screenshots/Screenshot_2016-11-28-15-48-02-318_桌面.png flg=0x1 cmp=smartisanos/.app.ResolverActivity} from uid 10011 on display 0
+
+10626:12-12 19:19:19.567 D/zjltest_RootsCache(17124): handleDocumentsProvider authority: com.android.externalstorage.documents, ---packageName:com.android.externalstorage
+10627:12-12 19:19:19.567 D/zjltest_RootsCache(17124): Loading roots for com.android.externalstorage.documents
+10631:12-12 19:19:19.571 D/zjltest_RootInfo(17124): Finished deriving fields: Root{authority=com.android.externalstorage.documents, rootId=7CE4-099A, title=KINGSTON, isUsb=true, isSd=false, isMtp=false}
+10632:12-12 19:19:19.571 D/zjltest_RootInfo(17124): Finished deriving fields: Root{authority=com.android.externalstorage.documents, rootId=primary, title=内部存储空间, isUsb=false, isSd=false, isMtp=false}
+10633:12-12 19:19:19.571 D/zjltest_RootInfo(17124): Finished deriving fields: Root{authority=com.android.externalstorage.documents, rootId=home, title=文档, isUsb=false, isSd=false, isMtp=false}
+10634:12-12 19:19:19.571 D/zjltest_RootInfo(17124): Finished deriving fields: Root{authority=com.android.externalstorage.documents, rootId=6A10-D51A, title=SD卡, isUsb=false, isSd=true, isMtp=false}
+10636:12-12 19:19:19.573 D/zjltest_RootsCache(17124): handleDocumentsProvider, roots: 4
+10638:12-12 19:19:19.573 D/zjltest_RootsCache(17124): handleDocumentsProvider authority: com.android.mtp.documents, ---packageName:com.android.mtp
+10639:12-12 19:19:19.573 D/zjltest_RootsCache(17124): Loading roots for com.android.mtp.documents
+10640:12-12 19:19:19.574 D/zjltest_RootsCache(17124): System cache hit for com.android.mtp.documents
+10641:12-12 19:19:19.574 D/zjltest_RootsCache(17124): handleDocumentsProvider, roots: 0
+10642:12-12 19:19:19.574 D/zjltest_RootsCache(17124): handleDocumentsProvider authority: com.android.providers.downloads.documents, ---packageName:com.android.providers.downloads
+10643:12-12 19:19:19.574 D/zjltest_RootsCache(17124): Loading roots for com.android.providers.downloads.documents
+10644:12-12 19:19:19.574 D/zjltest_RootsCache(17124): System cache hit for com.android.providers.downloads.documents
+10645:12-12 19:19:19.575 D/zjltest_RootInfo(17124): Finished deriving fields: Root{authority=com.android.providers.downloads.documents, rootId=downloads, title=下载, isUsb=false, isSd=false, isMtp=false}
+10646:12-12 19:19:19.575 D/zjltest_RootsCache(17124): handleDocumentsProvider, roots: 1
+10647:12-12 19:19:19.575 D/zjltest_RootsCache(17124): handleDocumentsProvider authority: com.android.providers.media.documents, ---packageName:com.android.providers.media
+10648:12-12 19:19:19.575 D/zjltest_RootsCache(17124): Loading roots for com.android.providers.media.documents
+10649:12-12 19:19:19.576 D/zjltest_RootsCache(17124): System cache hit for com.android.providers.media.documents
+10650:12-12 19:19:19.576 D/zjltest_RootInfo(17124): Finished deriving fields: Root{authority=com.android.providers.media.documents, rootId=images_root, title=图片, isUsb=false, isSd=false, isMtp=false}
+10651:12-12 19:19:19.576 D/zjltest_RootInfo(17124): Finished deriving fields: Root{authority=com.android.providers.media.documents, rootId=videos_root, title=视频, isUsb=false, isSd=false, isMtp=false}
+10652:12-12 19:19:19.576 D/zjltest_RootInfo(17124): Finished deriving fields: Root{authority=com.android.providers.media.documents, rootId=audio_root, title=音频, isUsb=false, isSd=false, isMtp=false}
+10653:12-12 19:19:19.576 D/zjltest_RootsCache(17124): handleDocumentsProvider, roots: 3
+
+
+147154:12-14 14:06:02.184 D/zjltest_Documents(11056): root:Root{authority=com.android.externalstorage.documents, rootId=home, title=文档, isUsb=false, isSd=false, isMtp=false}
+147155:12-14 14:06:02.184 D/zjltest_Documents(11056):  uri:content://com.android.externalstorage.documents/document/home%3A/children,
+147156:12-14 14:06:02.184 D/zjltest_Documents(11056):  doc:Document{docId=home:, name=Documents, isContainer=true, isDirectory=true, isArchive=false, isPartial=false, isVirtualDocument=false, isDeleteSupported=true, isCreateSupported=true, isRenameSupported=true}
+147615:12-14 14:06:25.642 D/zjltest_Documents(11056): root:Root{authority=com.android.externalstorage.documents, rootId=primary, title=内部存储空间, isUsb=false, isSd=false, isMtp=false}
+147616:12-14 14:06:25.642 D/zjltest_Documents(11056):  uri:content://com.android.externalstorage.documents/document/primary%3Aaaa/children,
+147617:12-14 14:06:25.642 D/zjltest_Documents(11056):  doc:Document{docId=primary:aaa, name=aaa, isContainer=true, isDirectory=true, isArchive=false, isPartial=false, isVirtualDocument=false, isDeleteSupported=true, isCreateSupported=true, isRenameSupported=true}
+
+******************************MTP********************************************
+37354:12-14 16:09:09.739 D/zjltest_Documents(18895): root:Root{authority=com.android.mtp.documents, rootId=128, title=SAMSUNG_Android, isUsb=false, isSd=false, isMtp=true}
+37355:12-14 16:09:09.739 D/zjltest_Documents(18895):  uri:content://com.android.mtp.documents/document/131/children,
+37356:12-14 16:09:09.739 D/zjltest_Documents(18895):  doc:Document{docId=131, name=Android, isContainer=true, isDirectory=true, isArchive=false, isPartial=false, isVirtualDocument=false, isDeleteSupported=true, isCreateSupported=true, isRenameSupported=false}
+

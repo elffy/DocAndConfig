@@ -1,0 +1,240 @@
+
+7575:07-05 14:52:24.811 D/zjltest (18845): traverseFileSystem
+18395:07-05 14:56:07.365 D/zjltest (18845): mFileCount:226461
+18396:07-05 14:56:07.365 D/zjltest (18845): mFolderCount:64051
+18397:07-05 14:56:07.366 E/zjltest (18845): Android/data/com.blizzard.wtcg.hearthstone : 251
+18398:07-05 14:56:07.366 E/zjltest (18845): Android/data/au.com.shiftyjelly.pocketcasts : 122
+18399:07-05 14:56:07.366 E/zjltest (18845): Android/data/com.taobao.taobao : 599
+18400:07-05 14:56:07.366 E/zjltest (18845): Android/data/com.jingdong.app.mall : 263
+18401:07-05 14:56:07.366 E/zjltest (18845): Android/data/com.dianping.v1 : 351
+18402:07-05 14:56:07.367 E/zjltest (18845): Android/data/com.taobao.trip : 195
+18403:07-05 14:56:07.367 E/zjltest (18845): Android/data/tv.danmaku.bili : 4374
+18404:07-05 14:56:07.367 E/zjltest (18845): Android/data/air.tv.douyu.android : 210
+18405:07-05 14:56:07.367 E/zjltest (18845): Android/data/gov.pianzong.androidnga : 283
+18406:07-05 14:56:07.367 E/zjltest (18845): Android/data/com.sankuai.meituan : 166
+18407:07-05 14:56:07.367 E/zjltest (18845): Android/data/com.twitter.android : 4322
+18408:07-05 14:56:07.367 E/zjltest (18845): Android/data/com.instapaper.android : 150
+18409:07-05 14:56:07.367 E/zjltest (18845): Android/data/com.netease.yanxuan : 726
+18410:07-05 14:56:07.367 E/zjltest (18845): Android/data/com.timehop : 826
+18411:07-05 14:56:07.367 E/zjltest (18845): Android/data/org.telegram.messenger : 2150
+18412:07-05 14:56:07.368 E/zjltest (18845): Android/data/com.netease.moneykeeper : 155
+18413:07-05 14:56:07.368 E/zjltest (18845): Android/data/com.smartisan.bbs : 177
+18414:07-05 14:56:07.368 E/zjltest (18845): Android/data/com.alibaba.android.rimet : 2258
+18415:07-05 14:56:07.368 E/zjltest (18845): Android/data/com.eg.android.AlipayGphone : 283
+18416:07-05 14:56:07.368 E/zjltest (18845): Android/data/com.qzone : 906
+18417:07-05 14:56:07.368 E/zjltest (18845): Android/data : 20588
+18418:07-05 14:56:07.368 E/zjltest (18845): Android : 20616
+18419:07-05 14:56:07.368 E/zjltest (18845): Pictures/Screenshots : 750
+18420:07-05 14:56:07.368 E/zjltest (18845): Pictures : 865
+18421:07-05 14:56:07.369 E/zjltest (18845): Download/mail_attachments : 339
+18422:07-05 14:56:07.369 E/zjltest (18845): Download : 412
+18423:07-05 14:56:07.369 E/zjltest (18845): DCIM/Camera : 967
+18424:07-05 14:56:07.369 E/zjltest (18845): DCIM : 983
+18425:07-05 14:56:07.369 E/zjltest (18845): smartisan/Recorder : 168
+18426:07-05 14:56:07.369 E/zjltest (18845): smartisan/music/cloud : 328
+18427:07-05 14:56:07.369 E/zjltest (18845): smartisan/music/albumart : 257
+18428:07-05 14:56:07.369 E/zjltest (18845): smartisan/music : 669
+18429:07-05 14:56:07.369 E/zjltest (18845): smartisan/notes/image_attch : 441
+18430:07-05 14:56:07.369 E/zjltest (18845): smartisan/notes : 442
+18431:07-05 14:56:07.370 E/zjltest (18845): smartisan : 1427
+18432:07-05 14:56:07.370 E/zjltest (18845): tencent/MicroMsg/4aba620a9bddfde5a2d8f8e4ec9730e3 : 182460
+18433:07-05 14:56:07.370 E/zjltest (18845): tencent/MicroMsg/sns_ad_landingpages : 187
+18434:07-05 14:56:07.370 E/zjltest (18845): tencent/MicroMsg : 183046
+18435:07-05 14:56:07.370 E/zjltest (18845): tencent/msflogs/com : 363
+18436:07-05 14:56:07.370 E/zjltest (18845): tencent/msflogs : 364
+18437:07-05 14:56:07.370 E/zjltest (18845): tencent/MobileQQ/head : 924
+18438:07-05 14:56:07.370 E/zjltest (18845): tencent/MobileQQ/RedPacket : 797
+18439:07-05 14:56:07.370 E/zjltest (18845): tencent/MobileQQ/ArkApp : 144
+18440:07-05 14:56:07.371 E/zjltest (18845): tencent/MobileQQ/diskcache : 1319
+18441:07-05 14:56:07.371 E/zjltest (18845): tencent/MobileQQ/qbiz : 993
+18442:07-05 14:56:07.371 E/zjltest (18845): tencent/MobileQQ/ar_model : 213
+18443:07-05 14:56:07.371 E/zjltest (18845): tencent/MobileQQ/shortvideo : 167
+18444:07-05 14:56:07.371 E/zjltest (18845): tencent/MobileQQ/poke : 513
+18445:07-05 14:56:07.371 E/zjltest (18845): tencent/MobileQQ/DoutuRes : 184
+18446:07-05 14:56:07.371 E/zjltest (18845): tencent/MobileQQ : 5626
+18447:07-05 14:56:07.371 E/zjltest (18845): tencent : 189316
+18448:07-05 14:56:07.371 E/zjltest (18845): sina/weibo/small_page : 499
+18449:07-05 14:56:07.371 E/zjltest (18845): sina/weibo/page : 190
+18450:07-05 14:56:07.371 E/zjltest (18845): sina/weibo : 746
+18451:07-05 14:56:07.371 E/zjltest (18845): sina : 747
+18452:07-05 14:56:07.372 E/zjltest (18845): netease/cloudmusic/Cache : 182
+18453:07-05 14:56:07.372 E/zjltest (18845): netease/cloudmusic : 239
+18454:07-05 14:56:07.372 E/zjltest (18845): netease/webcache/com.kaola : 161
+18455:07-05 14:56:07.372 E/zjltest (18845): netease/webcache : 162
+18456:07-05 14:56:07.372 E/zjltest (18845): netease : 431
+18457:07-05 14:56:07.372 E/zjltest (18845): autonavi : 177
+18458:07-05 14:56:07.372 E/zjltest (18845): cmblife/cache/pic : 174
+18459:07-05 14:56:07.372 E/zjltest (18845): cmblife/cache : 179
+18460:07-05 14:56:07.372 E/zjltest (18845): cmblife : 184
+18461:07-05 14:56:07.373 E/zjltest (18845): alipay/com.eg.android.AlipayGphone/applog_bak : 324
+18462:07-05 14:56:07.373 E/zjltest (18845): alipay/com.eg.android.AlipayGphone/applogic : 481
+18463:07-05 14:56:07.373 E/zjltest (18845): alipay/com.eg.android.AlipayGphone : 852
+18464:07-05 14:56:07.373 E/zjltest (18845): alipay/multimedia/4cfbb125e9878528bab91d12421134d8 : 1249
+18465:07-05 14:56:07.373 E/zjltest (18845): alipay/multimedia/1cbd86a7a2f8d50594c7b2d2ba1836a7 : 2137
+18466:07-05 14:56:07.373 E/zjltest (18845): alipay/multimedia : 3394
+18467:07-05 14:56:07.373 E/zjltest (18845): alipay : 4251
+18468:07-05 14:56:07.373 E/zjltest (18845): amap/GridMapV3 : 103
+18469:07-05 14:56:07.373 E/zjltest (18845): amap : 191
+18470:07-05 14:56:07.373 E/zjltest (18845): tieba/images : 558
+18471:07-05 14:56:07.374 E/zjltest (18845): tieba : 576
+18472:07-05 14:56:07.374 E/zjltest (18845): douyu/face/__MACOSX : 168
+18473:07-05 14:56:07.374 E/zjltest (18845): douyu/face : 337
+18474:07-05 14:56:07.374 E/zjltest (18845): douyu : 349
+18475:07-05 14:56:07.374 E/zjltest (18845): HuiJiaChiFan/cache : 1160
+18476:07-05 14:56:07.374 E/zjltest (18845): HuiJiaChiFan : 1161
+18477:07-05 14:56:07.374 E/zjltest (18845): Telegram/Telegram Images : 307
+18478:07-05 14:56:07.374 E/zjltest (18845): Telegram : 419
+18479:07-05 14:56:07.374 E/zjltest (18845): Youdao/Dict/YDCache : 145
+18480:07-05 14:56:07.374 E/zjltest (18845): Youdao/Dict : 162
+18481:07-05 14:56:07.374 E/zjltest (18845): Youdao : 163
+18482:07-05 14:56:07.375 E/zjltest (18845): immomo/cache : 266
+18483:07-05 14:56:07.375 E/zjltest (18845): immomo/mk/offline : 1879
+18484:07-05 14:56:07.375 E/zjltest (18845): immomo/mk : 1902
+18485:07-05 14:56:07.375 E/zjltest (18845): immomo/avatar/thumb : 208
+18486:07-05 14:56:07.375 E/zjltest (18845): immomo/avatar : 279
+18487:07-05 14:56:07.375 E/zjltest (18845): immomo/users/490347096 : 204
+18488:07-05 14:56:07.375 E/zjltest (18845): immomo/users : 205
+18489:07-05 14:56:07.376 E/zjltest (18845): immomo/moment/faces : 332
+18490:07-05 14:56:07.376 E/zjltest (18845): immomo/moment : 339
+18491:07-05 14:56:07.376 E/zjltest (18845): immomo : 3019
+
+
+
+8352:06-30 14:13:09.278 D/zjltest (18747): mFileCount:25166
+8353:06-30 14:13:09.278 D/zjltest (18747): mFolderCount:5862
+8358:06-30 14:13:09.281 E/zjltest (18747): .estrongs : 2013
+8354:06-30 14:13:09.281 E/zjltest (18747): .estrongs/recycle : 1996
+8368:06-30 14:13:09.281 E/zjltest (18747): .estrongs/recycle/1453131073787 : 1994
+
+8366:06-30 14:13:09.281 E/zjltest (18747): baidu : 1767
+8356:06-30 14:13:09.281 E/zjltest (18747): baidu/flyflow : 1733
+8361:06-30 14:13:09.281 E/zjltest (18747): baidu/flyflow/novel : 1390
+
+8370:06-30 14:13:09.281 E/zjltest (18747): Android : 3747
+8357:06-30 14:13:09.281 E/zjltest (18747): Android/data : 3733
+
+8371:06-30 14:13:09.281 E/zjltest (18747): Tencent : 11605
+8359:06-30 14:13:09.281 E/zjltest (18747): Tencent/MobileQQ : 2529
+8362:06-30 14:13:09.281 E/zjltest (18747): Tencent/MobileQQ/qbiz : 1028
+8365:06-30 14:13:09.281 E/zjltest (18747): Tencent/MicroMsg : 8763
+8355:06-30 14:13:09.281 E/zjltest (18747): Tencent/MicroMsg/6125355cf7ff7321dcc112a080fae26b : 7899
+
+8369:06-30 14:13:09.281 E/zjltest (18747): netease : 2288
+8360:06-30 14:13:09.281 E/zjltest (18747): netease/cloudmusic : 2245
+8364:06-30 14:13:09.281 E/zjltest (18747): netease/cloudmusic/Cache : 2043
+
+8367:06-30 14:13:09.281 E/zjltest (18747): alipay : 1582
+8363:06-30 14:13:09.281 E/zjltest (18747): alipay/multimedia : 1479
+
+
+
+
+
+6743:06-30 14:16:41.861 D/zjltest (30951): mFileCount:80780
+6744:06-30 14:16:41.861 D/zjltest (30951): mFolderCount:18094
+
+6747:06-30 14:16:41.862 E/zjltest (30951): snowball : 1282
+6749:06-30 14:16:41.862 E/zjltest (30951): snowball/image_cache : 1281
+
+6757:06-30 14:16:41.862 E/zjltest (30951): alipay : 2082
+6755:06-30 14:16:41.862 E/zjltest (30951): alipay/multimedia : 1755
+6754:06-30 14:16:41.862 E/zjltest (30951): alipay/multimedia/1cbd86a7a2f8d50594c7b2d2ba1836a7 : 1189
+
+6750:06-30 14:16:41.862 E/zjltest (30951): tencent : 52971
+6746:06-30 14:16:41.862 E/zjltest (30951): tencent/micromsg/0e38b1eaa6e893886e6d680f004d963f : 44600
+6753:06-30 14:16:41.862 E/zjltest (30951): tencent/GameHelper/temp : 4241
+6758:06-30 14:16:41.862 E/zjltest (30951): tencent/micromsg : 45261
+6759:06-30 14:16:41.862 E/zjltest (30951): tencent/GameHelper : 4425
+6762:06-30 14:16:41.862 E/zjltest (30951): tencent/MobileQQ : 2968
+
+6760:06-30 14:16:41.862 E/zjltest (30951): netease : 2277
+6748:06-30 14:16:41.862 E/zjltest (30951): netease/cloudmusic : 2247
+6756:06-30 14:16:41.862 E/zjltest (30951): netease/cloudmusic/Cache : 1708
+
+6761:06-30 14:16:41.862 E/zjltest (30951): Android : 17028
+6745:06-30 14:16:41.861 E/zjltest (30951): Android/data : 17018
+6751:06-30 14:16:41.862 E/zjltest (30951): Android/data/com.zhihu.daily.android : 1464
+6752:06-30 14:16:41.862 E/zjltest (30951): Android/data/com.tencent.tmgp.sgame : 10473
+
+
+
+19445:06-30 14:27:09.192 D/zjltest ( 5612): mFileCount:135641
+19446:06-30 14:27:09.193 D/zjltest ( 5612): mFolderCount:31338
+19447:06-30 14:27:09.193 E/zjltest ( 5612): Android/data/com.jingdong.app.reader : 3269
+19448:06-30 14:27:09.193 E/zjltest ( 5612): Android/data/com.liulishuo.engzo : 2068
+19449:06-30 14:27:09.193 E/zjltest ( 5612): Android/data/com.alibaba.android.rimet : 1608
+19450:06-30 14:27:09.194 E/zjltest ( 5612): Android/data/com.hjwordgames : 1311
+19451:06-30 14:27:09.194 E/zjltest ( 5612): Android/data/com.netease.yanxuan : 1161
+19452:06-30 14:27:09.194 E/zjltest ( 5612): Android/data : 16467
+19453:06-30 14:27:09.194 E/zjltest ( 5612): Android : 16487
+
+19454:06-30 14:27:09.194 E/zjltest ( 5612): tencent/MicroMsg/6125355cf7ff7321dcc112a080fae26b : 88509
+19455:06-30 14:27:09.194 E/zjltest ( 5612): tencent/MicroMsg : 89616
+19456:06-30 14:27:09.194 E/zjltest ( 5612): tencent/MobileQQ/AR_MAP : 1383
+19457:06-30 14:27:09.194 E/zjltest ( 5612): tencent/MobileQQ : 6888
+19458:06-30 14:27:09.195 E/zjltest ( 5612): tencent : 97582
+
+19459:06-30 14:27:09.195 E/zjltest ( 5612): netease/cloudmusic/Cache : 5661
+19460:06-30 14:27:09.195 E/zjltest ( 5612): netease/cloudmusic : 5846
+19461:06-30 14:27:09.195 E/zjltest ( 5612): netease : 6047
+
+19462:06-30 14:27:09.195 E/zjltest ( 5612): qqmusic/gift_anim_zip : 1666
+19463:06-30 14:27:09.195 E/zjltest ( 5612): qqmusic : 2075
+
+19464:06-30 14:27:09.195 E/zjltest ( 5612): alipay/multimedia/1cbd86a7a2f8d50594c7b2d2ba1836a7 : 4916
+19465:06-30 14:27:09.195 E/zjltest ( 5612): alipay/multimedia : 4925
+19466:06-30 14:27:09.196 E/zjltest ( 5612): alipay : 5715
+
+19467:06-30 14:27:09.196 E/zjltest ( 5612): Poco/Thumbs : 1450
+19468:06-30 14:27:09.196 E/zjltest ( 5612): Poco : 1451
+
+
+
+280176:06-30 17:27:21.304 D/zjltest (25412): mFileCount:9056
+280177:06-30 17:27:21.304 D/zjltest (25412): mFolderCount:996
+280178:06-30 17:27:21.304 E/zjltest (25412): Android/data : 821
+280179:06-30 17:27:21.305 E/zjltest (25412): Android : 825
+280180:06-30 17:27:21.305 E/zjltest (25412): smartisan : 553
+280181:06-30 17:27:21.305 E/zjltest (25412): aaaa : 2729
+280182:06-30 17:27:21.305 E/zjltest (25412): tencent/MobileQQ/RedPacket : 562
+280183:06-30 17:27:21.305 E/zjltest (25412): tencent/MobileQQ/qbiz : 714
+280184:06-30 17:27:21.305 E/zjltest (25412): tencent/MobileQQ : 1722
+280185:06-30 17:27:21.305 E/zjltest (25412): tencent : 2048
+280186:06-30 17:27:21.305 E/zjltest (25412): qqmusic/gift_anim_zip : 1666
+280187:06-30 17:27:21.305 E/zjltest (25412): qqmusic : 1967
+
+9609:07-04 10:47:20.763 D/zjltest (27226): mFileCount:76528
+9610:07-04 10:47:20.763 D/zjltest (27226): mFolderCount:16838
+9611:07-04 10:47:20.767 E/zjltest (27226): Android/data/com.tencent.tmgp.dragonball : 6157
+9612:07-04 10:47:20.767 E/zjltest (27226): Android/data/com.taobao.taobao : 5848
+9613:07-04 10:47:20.767 E/zjltest (27226): Android/data/com.youku.phone : 1817
+9614:07-04 10:47:20.767 E/zjltest (27226): Android/data/com.ss.android.article.news : 792
+9615:07-04 10:47:20.767 E/zjltest (27226): Android/data/com.anjuke.android.app : 1531
+9616:07-04 10:47:20.767 E/zjltest (27226): Android/data/com.taobao.idlefish : 6415
+9617:07-04 10:47:20.767 E/zjltest (27226): Android/data/tv.danmaku.bili : 651
+9618:07-04 10:47:20.767 E/zjltest (27226): Android/data/com.tmall.wireless : 1216
+9619:07-04 10:47:20.767 E/zjltest (27226): Android/data : 27440
+9620:07-04 10:47:20.767 E/zjltest (27226): Android : 27455
+
+9621:07-04 10:47:20.767 E/zjltest (27226): alipay/com.eg.android.AlipayGphone/applogic : 884
+9622:07-04 10:47:20.767 E/zjltest (27226): alipay/com.eg.android.AlipayGphone : 1377
+9623:07-04 10:47:20.767 E/zjltest (27226): alipay/multimedia/1cbd86a7a2f8d50594c7b2d2ba1836a7 : 859
+9624:07-04 10:47:20.767 E/zjltest (27226): alipay/multimedia : 864
+9625:07-04 10:47:20.767 E/zjltest (27226): alipay : 2246
+9626:07-04 10:47:20.767 E/zjltest (27226): DCIM/camera : 1329
+9627:07-04 10:47:20.767 E/zjltest (27226): DCIM : 1337
+9628:07-04 10:47:20.767 E/zjltest (27226): tencent/micromsg/0cb5e84b65352c09f2006991b676cb0a : 33257
+9629:07-04 10:47:20.768 E/zjltest (27226): tencent/micromsg : 33653
+9630:07-04 10:47:20.768 E/zjltest (27226): tencent/MobileQQ/diskcache : 702
+9631:07-04 10:47:20.768 E/zjltest (27226): tencent/MobileQQ/RedPacket : 795
+9632:07-04 10:47:20.768 E/zjltest (27226): tencent/MobileQQ/qbiz : 509
+9633:07-04 10:47:20.768 E/zjltest (27226): tencent/MobileQQ/poke : 513
+9634:07-04 10:47:20.768 E/zjltest (27226): tencent/MobileQQ : 3458
+9635:07-04 10:47:20.768 E/zjltest (27226): tencent : 37625
+9636:07-04 10:47:20.768 E/zjltest (27226): qqmusic/gift_anim_zip : 1666
+9637:07-04 10:47:20.768 E/zjltest (27226): qqmusic : 1784
+9638:07-04 10:47:20.768 E/zjltest (27226): youku/cacheData : 948
+9639:07-04 10:47:20.768 E/zjltest (27226): youku : 1032
+9640:07-04 10:47:20.768 E/zjltest (27226): dangdang/imgs : 1934
+9641:07-04 10:47:20.768 E/zjltest (27226): dangdang : 1946
+

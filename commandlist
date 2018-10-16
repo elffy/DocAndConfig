@@ -1,4 +1,37 @@
 
+*********************** Linux commands **************************************
+find . -name "empty_paste.*"
+
+统计代码行数：
+find . -name "*.cpp"|xargs wc -l|grep "total"|awk '{print $1}'    
+find . -name "*.cpp"|xargs cat|wc -l  
+去空行版
+find . -name "*.java"|xargs cat|grep -v ^$|wc -l 
+
+定位命令：
+which command
+which -a command
+
+**************************** adb *******************************
+
+adb logcat -v time | grep -nrsP "/DownloadManager|AndroidRuntime|START u0|zjltest|FM_|DM_|CAL_|Cal_|Displayed|FATAL"
+
+adb shell am start -n com.android.calendar/.AllInOneActivity -P /data/local/tmp/test.trace
+
+//跳过手机激活/开机向导
+adb shell am start -n com.smartisanos.setupwizard/.SetupWizardCompleteActivity
+
+dumpsys package <packagename> //查看指定包的信息
+
+statusbar - 找出广告通知属于哪个应用
+    dumpsys statusbar | grep notification=Notification 
+
+****************************Android 下载 & 编译相关*******************************
+
+ repo init -u ssh://smartisan/qualcomm/platform/manifest.git -b sanfrancisco -m osborn-rom.xml --repo-url smartisan:/googlesource/git-repo --reference /home/zengjinlong/src/android-mirror/
+ repo init -u ssh://smartisan/qualcomm/platform/manifest.git -b sanfrancisco -m rebase/to/trident-rom-r00418.2-20171215.xml --repo-url smartisan:googlesource/git-repo --reference ~/src/android-mirror
+ repo init -u ssh://smartisan/qualcomm/platform/manifest.git -b sanfrancisco -m trident-trinity.xml --repo-url ssh://smartisan/googlesource/git-repo --reference ~/src/android-mirror/ --depth 1 -g all,-notdefault 
+ 
 Android 编译相关：
 --------
 以下编译配置一般在device下面的mk文件中，比如qcom/msm8974sfo.mk
@@ -7,10 +40,14 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+--------
+#打包所有资源
+LOCAL_AAPT_INCLUDE_ALL_RESOURCES := true
+
 
 
 ****************************keytool*******************************
-keytool -list -v -keystore xxxxx.keystore
+keytool -list -v -keystore smartisan.keystore
 
 
 **********************get change-id:*************************
@@ -55,8 +92,30 @@ monkey -s 3133508013 -p com.android.camera2 --monitor-native-crashes --ignore-se
             android.util.Log.i("zjltest", ste.toString());
         }
 
+*********************** Sqlite samples **************************************
+select * from files where _data like "/storage/emulated/0/%" AND lower(substr(_data, 1,20)) = lower("/storage/emulated/0/");
+
+
 ***********************tcpdump**************************************
 tcpdump -p -vv -s 0 -w /sdcard/aaaaaaaTests/tcpdump.pcap
+
+
+curl -IL "https://api-app.smartisan.com/api/v1_4/download/app?package=com.ss.android.article.news&download_url=http%3A%2F%2Fres.smartisanos.cn%2Fappstore-oss%2Fcom.ss.android.article.news%2Fapk%2F78F97D61A6CD53C07532C2F05B2B31CE.apk&source=recommend&source=recommend&source=recommend&source=recommend&source=recommend&source=recommend&source=recommend&source=recommend&source=recommend"
+HTTP/1.1 302 Moved Temporarily
+Date: Tue, 01 Nov 2016 10:45:16 GMT
+Content-Type: text/html
+Connection: keep-alive
+Redirect-Ip: 1.180.204.141
+Location: http://res.smartisanos.cn/appstore-oss/com.ss.android.article.news/apk/78F97D61A6CD53C07532C2F05B2B31CE.apk
+Server: ARTWS/1.0
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1;mode=block
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Origin: http://nav.smartisan.com
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: POST
+
+curl -H"host:res.smartisanos.cn" "http://221.235.252.141/appstore-oss/com.ss.android.article.news/apk/78F97D61A6CD53C07532C2F05B2B31CE.apk"
 
 curl  -IL -H"host:baidu.com" "http://220.181.57.217"
 
@@ -79,7 +138,7 @@ curl  -IL -H"host:baidu.com" "http://220.181.57.217"
 
 SUBSYSTEM==”usb”, SYSFS{“idVendor”}==”2207″, MODE=”0666″
 
-SUBSYSTEM=="usb", ATTR{idVendor}=="2207", ATTR{idProduct}=="0010", MODE="0666"
+SUBSYSTEM=="usb", ATTR{idVendor}=="2207", ATTR{idProduct}=="0010", MODE="0666", OWNER="<xxx>" (owner是本机用户名)
 
 4) 运行以下命令： 
 
@@ -99,4 +158,60 @@ udev start/running, process 2127
 5）gedit ~/.android/adb_usb.ini
 在里面加入0x0002（不行换行再加入0x18d1）
 重启adb
+
+
+******************http://codetheory.in/android-debug-bridge-adb-wireless-debugging-over-wi-fi/***********************
+
+We mostly connect our Android device to our computers with a USB cable for debugging purposes. It is possible to use adb over a wifi connection than a USB to save some wire-related hassles in our lives. The process is super simple, let’s go through it quickly.
+
+
+STEP 1
+
+Make sure both your adb host computer and Android device are on the same Wifi network.
+
+STEP 2
+
+Connect the Android device with the computer using your USB cable. As soon as you do that, your host computer will detect your device and adb will start running in the USB mode on the computer. You can check the attached devices with adb devices whereas ensure that adb is running in the USB mode by executing adb usb.
+
+$ adb usb
+restarting in USB mode
+$ adb devices
+List of devices attached
+ZX1D63HX9R  device
+
+STEP 3
+
+Restart adb in tcpip mode with this command:
+
+$ adb tcpip 5556
+restarting in TCP mode port: 5556
+
+STEP 4
+
+Find out the IP address of the Android device. There are several ways to do that:
+
+Go to Settings -> About phone/tablet -> Status -> IP address.
+Go to the list of Wi-fi networks available. The one to which you’re connected, tap on that and get to know your IP.
+Try $ adb shell netcfg.
+Now that you know the IP address of your device, connect your adb host to it.
+
+$ adb connect 192.168.0.102:5556
+already connected to 192.168.0.102:5556
+$ adb devices
+List of devices attached
+ZX1D63HX9R  device
+192.168.0.102:5556  device
+
+STEP 5
+
+Remove the USB cable and you should be connected to your device. If you don’t see it in adb devices then just reconnect using the previous step’s command:
+
+$ adb connect 192.168.0.102:5556
+connected to 192.168.0.102:5556
+$ adb devices
+List of devices attached
+192.168.0.102:5556  device
+Either you’re good to go now or you’ll need to kill your adb server by executing adb kill-server and go through all the steps again once more.
+
+Hope that helps!
 

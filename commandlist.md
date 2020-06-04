@@ -1,14 +1,62 @@
+## SQL
+```
+select f_project_id,count(*) as f_count from t_device_project_config GROUP BY f_project_id
+```
 
-*********************** Linux commands **************************************
-find . -name "empty_paste.*"
+## Curl
+```
+curl [-i] http://127.0.0.1:8080/login?admin&passwd=12345678
+curl -d "user=admin&passwd=12345678" http://127.0.0.1:8080/login // post
+curl -H "Content-Type:application/json" -X POST -d '{"user": "admin", "passwd":"12345678"}' http://127.0.0.1:8000/login
+curl  -L -e  '; auto'  -o output.html http://xxx/xxx  // 自动重定向
+```
 
-统计代码行数：
+## Git command
+```
+git tag // view tags.  
+git tag -a v1.0 -m "tag message" // tag with msg.  
+git tag v1.0.0 // create tag.  
+git tag -d v1.0.0 // delete tag.  
+git push origin --tags // push tags
+git config --global/local/system --list // view the global or local or system config
+git config --local user.email "xxx@xxx.com" // set local config
+git push origin local_branch:remote_branch
+
+git log --abbrev-commit --pretty=oneline  // 使用简短的commit ID，每个提交只显示一行
+
+git remote -v // 查看远程分支
+git remote remove xxx // 删除远程分支
+```
+
+## Mac command
+open -a finder .   
+open -e xxx.txt // 打开文件
+ln -s srcFile dstFile // 创建软连接，linux同
+
+## GO 
+go test -bench . -cpuprofile cpu.out.  
+go tool pprof cpu.out -->web.  
+go test 默认执行当前目录下以xxx\_test.go的测试文件。   
+go test -v 可以看到详细的输出信息。  
+go test -v xxx\_test.go 指定测试单个文件，但是该文件中如果调用了其它文件中的模块会报错。  
+go test -v -test.run Testxxx 指定某个测试函数运行：
+
+go mod init [moduleName] // 如果有git库，go mod会从git信息中提取模块名，若没有，需提供模块名--->实际情况看只有在GoPath下的项目才会自动确定模块名，不知道为啥在GoPath外没有从git中提取信息。
+
+### GO 交叉编译：
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build main.go
+CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build main.go
+
+## Linux commands
+- find . -name "empty_paste.*"
+
+- 统计代码行数：  
 find . -name "*.cpp"|xargs wc -l|grep "total"|awk '{print $1}'    
 find . -name "*.cpp"|xargs cat|wc -l  
-去空行版
+去空行版:  
 find . -name "*.java"|xargs cat|grep -v ^$|wc -l 
 
-定位命令：
+- 定位命令：
 which command
 which -a command
 
@@ -40,8 +88,8 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
---------
-#打包所有资源
+
+**打包所有资源**.  
 LOCAL_AAPT_INCLUDE_ALL_RESOURCES := true
 
 
